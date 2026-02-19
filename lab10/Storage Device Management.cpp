@@ -11,3 +11,4 @@ try {
     cout << "Allocated block " << b << endl;
 } catch (const runtime_error& e) {
     cerr << "Allocation error: " << e.what() << endl;
+}
